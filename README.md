@@ -1,5 +1,6 @@
 Mental Health Text Classifier
 A natural language processing (NLP) project that classifies text statements into mental health categories using machine learning. Built in Python using scikit-learn and pandas.
+**🔗 Live Demo:** [https://mental-health-text-classifier-b5ek4evz6gbmpm93h2ywpg.streamlit.app/]
 
 Background and Motivation
 Mental health stigma remains a significant barrier to help-seeking behaviour, not only in Asia but across Europe as well. Many individuals experiencing mental health difficulties turn to anonymous online communities before ever consulting a professional. They find community, shared experience, and a sense of being understood in spaces like Reddit.
