@@ -47,6 +47,23 @@ Results
 | Stress | 0.90 | 0.59 | 0.71 |
 
 
+## Model Comparison
+
+| Model | Accuracy |
+|---|---|
+| LightGBM | 0.7769 |
+| Logistic Regression | 0.7682 |
+| SVM | 0.7614 |
+| XGBoost | 0.7557 |
+| Neural Network | 0.7076 |
+| Random Forest | 0.7021 |
+| KNN | 0.1277 |
+
+Choosing between ML models is analogous to selecting diagnostic tests — each has different sensitivity and specificity for different conditions. Just as a blood culture is the gold standard but resource-intensive, more complex models like LightGBM achieve marginally higher accuracy but at the cost of interpretability. For clinical applications where explainability matters, Logistic Regression remains a defensible choice.
+
+Critically, LightGBM and Logistic Regression achieved identical Suicidal recall (0.82) — the most clinically important metric in this application. Minimising missed suicidal statements matters more than overall accuracy.
+
+
 Usage
 # Classify any new text statement
 print(classify_statement("I feel completely alone and no one understands me"))
