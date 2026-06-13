@@ -1,4 +1,4 @@
-Mental Health Text Classifier
+MindEcho
 A natural language processing (NLP) project that classifies text statements into mental health categories using machine learning. Built in Python using scikit-learn and pandas.
 **🔗 Live Demo:** [https://mental-health-text-classifier-b5ek4evz6gbmpm93h2ywpg.streamlit.app/]
 
