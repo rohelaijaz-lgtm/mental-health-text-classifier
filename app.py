@@ -6,7 +6,7 @@ import requests
 # ── Page config ──────────────────────────────────────────────
 st.set_page_config(page_title="Mental Health Text Classifier", page_icon="🧠")
 
-st.title("🧠 Mental Health Text Classifier")
+st.title("🧠 MindEcho")
 st.write("Type a statement below and the model will classify it into a mental health category.")
 
 # ── Load model and vectoriser ────────────────────────────────
